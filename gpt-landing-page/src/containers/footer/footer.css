@@ -9,7 +9,7 @@ footer h1 {
     font-size: 42px;
     color: var(--color-subtext);
     margin: 0 auto;
-    padding: 20px
+    padding: 20px;
 }
 footer button {
     display: block;
@@ -37,31 +37,33 @@ footer ul p {
     margin: 5px 0;
 }
 
-.footer-section-logo{
+.footer-section-logo {
     color: white;
     display: grid;
     justify-content: center;
-    align-item: center;
+    align-items: center;
     padding: 50px;
     gap: 10px;
 }
 .footer-section-logo img {
     width: 100%;
 }
-footer ul h2{
+footer ul h2 {
     color: white;
     margin-bottom: 14px;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1000px) {
     .footer-item-container {
-    grid-template-columns: 1fr;
-}
+        grid-template-columns: 1fr;
+    }
 
-footer ul{
+    footer ul {
         display: grid;
-    justify-content: center;
-    align-item: center;
-    text-align: center;
-}
+        justify-content: center;
+        text-align: center;
+    }
+    footer h1 {
+        font-size: 20px;
+    }
 }
