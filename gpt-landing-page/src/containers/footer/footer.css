@@ -10,6 +10,7 @@ footer h1 {
     color: var(--color-subtext);
     margin: 0 auto;
     padding: 20px;
+    width: 650px;
 }
 footer button {
     display: block;
@@ -65,5 +66,6 @@ footer ul h2 {
     }
     footer h1 {
         font-size: 20px;
+        width: 100%;
     }
 }

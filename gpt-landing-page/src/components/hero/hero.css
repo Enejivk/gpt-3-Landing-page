@@ -63,7 +63,7 @@
         flex-direction: column;
     }
     .hero-section > * {
-        width: 80%;
+        width: 100%;
     }
     .hero-image img{
         width: 100%;

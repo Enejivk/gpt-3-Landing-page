@@ -3,7 +3,7 @@ import logo from '../../assets/logo.svg'
 const Footer = () => {
     return (
         <footer>
-            <h1>Do you want to step in to the <br /> future before others</h1>
+            <h1>Do you want to step in to the future before others</h1>
             <button>Request Early Access</button>
             <div className="footer-item-container">
                 <div className="footer-section-logo">
