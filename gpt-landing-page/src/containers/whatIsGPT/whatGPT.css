@@ -1,0 +1,75 @@
+/** @format */
+
+.what-is-GPT-section {
+    background: #03284f;
+    padding: 49px;
+}
+.meaning-gpt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.meaning-gpt p {
+    width: 70%;
+    min-width: 439px;
+}
+.possibility-text {
+    color: var(--color-subtext);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 70px 0;
+    align-items: center;
+}
+.possibility-text h1 {
+    font-size: 34px;
+    width: 472px;
+}
+.possibility-text p {
+    font-size: 16px;
+}
+.gpt-function {
+    display: flex;
+    column-gap: 50px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.gpt-function .feature-Item {
+    width: 28%;
+    min-width: 183px;
+}
+.gpt-function .feature-Item .feature-title {
+    margin-bottom: 40px;
+}
+@media screen and (max-width: 1000px) {
+    .meaning-gpt p {
+        width: 70%;
+        min-width: 80%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .gpt-function .feature-Item,
+    .feature-Item {
+        width: 100%;
+        margin: 15px auto;
+    }
+
+    .gpt-function .feature-Item .feature-title {
+        margin-bottom: 20px;
+    }
+    .possibility-text {
+        margin: 30px 0;
+    }
+    .meaning-gpt p {
+        width: 100%;
+        min-width: auto;
+    }
+    .what-is-GPT-section {
+        background: #03284f;
+        padding: 23px;
+    }
+}

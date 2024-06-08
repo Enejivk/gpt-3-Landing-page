@@ -1,0 +1,9 @@
+.partners-logo{
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+    row-gap: 15px;
+    margin-bottom: 50px;
+}

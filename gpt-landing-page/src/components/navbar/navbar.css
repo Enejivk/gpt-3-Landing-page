@@ -1,0 +1,82 @@
+
+.navbar-container {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.logo {
+    margin-right: 40px;
+}
+.logo-navbar-links {
+    display: flex;
+    align-items: center;
+}
+.navbar-link p,
+.nav-link-sign p {
+    margin: 0 9px;
+}
+.nav-link-sign button,
+.navbar-menu-container button{
+    padding: 8px 20px;
+    font-size: 18px;
+    background-color: #FF4820;
+    color: #fff;
+    border: none;
+}
+
+.navbar-link {
+    display: flex;
+}
+.nav-link-sign button:hover{
+    background-color: purple;
+}
+.navbar-link a,
+.nav-link-sign a {
+    color: #fff;
+    font-size: 18px;
+}
+.nav-link-sign{
+    display: flex;
+    align-items: center;
+}
+.navbar-container svg{
+    display: none;
+}
+.navbar-menu-container{
+    display: none;
+}
+@media screen and (max-width: 900px) {
+    .navbar-link{
+        display: none;
+    }
+    .navbar-container svg{
+        display: flex;
+    }
+    .nav-link-sign{
+        justify-self: flex-end;
+    }
+    .navbar-menu-container{
+        position: absolute;
+        top: 15%;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(130, 130, 130);
+        padding: 15px 50px;
+        row-gap: 10px;
+    }
+
+    .navbar-menu-container a{
+        color: white;
+
+    }
+
+}
+@media screen and (max-width: 550px){
+    .nav-link-sign> button,
+    .nav-link-sign p{
+        display: none;
+    }
+}

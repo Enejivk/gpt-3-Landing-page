@@ -1,0 +1,27 @@
+/** @format */
+
+.feature-Item h1 {
+    font-size: 24px;
+}
+.feature-Item p {
+    font-size: 16px;
+    line-height: 30px;
+}
+hr {
+    width: 38px;
+    border: 2.8px solid #ff8a71;
+}
+.feature-title {
+    color: #fff;
+}
+.feature-content {
+    color: #81afdd;
+}
+@media screen and (max-width: 1000px) {
+    .feature-Item h1 {
+        font-size: 20px;
+    }
+    .feature-Item p {
+        font-size: 14px;
+    }
+}
